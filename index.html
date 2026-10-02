@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavour House Restaurant</title>
+<link rel="stylesheet" href="style.css">
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav">
+            <a href="#home" class="logo">Flavour <span>House</span></a>
+            <button class="meanu-btn" id="menuBtn">
+
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#testimonials">Reviews</a>
+
+                <a href="#reservation">Reservation</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+         <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content reveal show">
+                    <span class="eyebrow">Fresh Taste Warm Ambience Fast Service</span>
+                    <h1>Enjoy Delicious Food at <span>Flavour House</span></h1>
+                    <p>Welcome to our Restaurant where fresh ingredients, rich flavors, and a cozy dining experience come together. Explore our signature dishes, chef specials, and reserve your table today.</p>
+
+                    <div class="hero-actions">
+                        <a href="#reservation" class="btn btn-outline">Book a Table</a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <h3>50+</h3>
+                            <p>Delicious Dishes</p>
+                        </div>
+
+                        <div class="hero-stat">
+                            <h3>12+</h3>
+                            <p>Expert Chefs</p>
+                        </div>
+
+                        <div class="hero-stat">
+                            <h3>4.9</h3>
+                            <p>Customer Rating</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-card reveal">
+                    <img src="./Images/card menu 2.jpg" alt="">
+                    <div class="floating-box top">
+                        <h4>Chef Special</h4>
+                        <p>Grilled Salmon Bowl</p>
+                    </div>
+
+                    <div class="floating-box bottom">
+                        <h4>Open Daily</h4>
+                        <p>10.00 AM - 11.00 PM</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- About -->
+
+         <section class="section" id="about">
+            <div class="container">
+                <div class="section-title reveal">
+                    <span>About Us</span>
+                    <h2>Serving happiness on every guest.</h2>
+                </div>
+
+                <div class="about-grid">
+                    <img src="./Images/about.jpg" alt="">
+                     
+                    <div class="about-content reveal">
+                        <p>Flavour House is a modern Restaurant designed for food lovers who enjoy flavor, freshness, and quality service. From familt lunches
+                            to romantic dinners, we create experiences that feel both welcoming and special.</p>
+                     
+                      <p>Our chefs prepare every dish with care, using selected ingredients and balanced spices to deliver unforgettable taste in every bite.</p>      
+
+                <div class="about-features">
+                    <div class="feature-box">
+                        <h4>Fresh ingredients</h4>
+                        <p>We use carefully selected fresh ingredients every day.</p>
+                    </div>
+
+                     <div class="feature-box">
+                        <h4>Expert Chefs</h4>
+                        <p>Our team brings skill, passion, and creativity to every dish.</p>
+                    </div>
+
+                     <div class="feature-box">
+                        <h4>Cozy Ambience</h4>
+                        <p>Enjoy a warm and elegant atmosphere for any occasion.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Fast Service</h4>
+                        <p>Friendly staff and timely service for a great dining experience.</p>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- specials -->
+         <section class="section" style="background: #fff;" id="specials">
+            <div class="container">
+                <div class="section-title reveal">
+                    <span>Why Choose Us</span>
+                    <h2>More than just a Restaurant</h2>
+                    <p>We focus on taste, presentation, comfort, and service to give our guests a complete dining experience.</p>
+                </div>
+
+             <div class="specials-grid">
+                <div class="card special-card reveal">
+                    <div class="special-icon">
+                       <i class="fa-solid fa-utensils"></i>                    </div>
+                    <h3>premium Dining</h3>
+                    <p>Beautiful presentation and carefully crafted meals for every guest.</p>
+                </div>
+
+                <div class="card special-card reveal">
+                    <div class="special-icon">
+                      <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <h3>Fast Delivery</h3>
+                    <p>Host and fresh dishes delivered quickly to your doorstep.</p>
+                </div>
+
+                <div class="card special-card reveal">
+                    <div class="special-icon">
+                       <i class="fa-solid fa-bowl-food"></i>
+                    </div>
+                    <h3>Healthy Options</h3>
+                    <p>Fresh salads, light bowls, and balanced meals for every lifestyle.</p>
+                </div>
+             </div>
+            </div>
+         </section>
+
+       <!-- Menu -->
+     <section class="section" id="menu">
+        <div class="container">
+            <div class="section-title reveal">
+                <span>Our Menu</span>
+                <h2>Discover our Popular dishes</h2>
+                <p>Browse our selected menu categories and find the perfect meal for your cravings.</p>
+            </div>
+
+        <div class="menu-filter reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="starter">Starters</button>
+            <button class="filter-btn" data-filter="main">Main Course</button>
+            <button class="filter-btn" data-filter="dessert">Desserts</button>
+            <button class="filter-btn" data-filter="drink">Drinks</button>
+        </div>
+
+        <div class="menu-grid" id="menuGrid">
+            <article class="card menu-item reveal" data-category="starter">
+            <img src="./Images/card menu 1.jpg" alt="">
+            <div class="menu-content">
+                <div class="menu-top">
+                    <h3>Roasted Tomato Soup</h3>
+                    <span class="price">₹250</span>
+
+                </div>
+                <p>Rich tomato soup served with herbs and crispy toasted bread</p>
+                <span class="pill">Starter</span>
+            </div>
+            </article>
+
+            <article class="card menu-item reveal" data-category="main">
+            <img src="./Images/card menu 2.jpg" alt="">
+            <div class="menu-content">
+                <div class="menu-top">
+                    <h3>Grilled Salmon bowl</h3>
+                    <span class="price">₹650</span>
+
+                </div>
+                <p>Fresh salmon with rice, avacado, greens, and signature sauce.</p>
+                <span class="pill">Main Course</span>
+            </div>
+            </article>
+
+             <article class="card menu-item reveal" data-category="main">
+            <img src="./Images/card menu 3.jpg" alt="">
+            <div class="menu-content">
+                <div class="menu-top">
+                    <h3>Classic Italian Pizza</h3>
+                    <span class="price">₹450</span>
+
+                </div>
+                <p>Crispy crust topped with cheese, herbs, and fresh ingredients.</p>
+                <span class="pill">Main Course</span>
+            </div>
+            </article>
+
+             <article class="card menu-item reveal" data-category="starter">
+            <img src="./Images/card menu 4.jpg" alt="">
+            <div class="menu-content">
+                <div class="menu-top">
+                    <h3>Fresh Garden Salad</h3>
+                    <span class="price">₹300</span>
+
+                </div>
+                <p>Crispy Vegetables, olives, and house dressing with a refreshing taste.</p>
+                <span class="pill">Starter</span>
+            </div>
+            </article>
+
+            <article class="card menu-item reveal" data-category="dessert">
+            <img src="./Images/card menu 5.jpg" alt="">
+            <div class="menu-content">
+                <div class="menu-top">
+                    <h3>Berry Pancake Stack</h3>
+                    <span class="price">₹350</span>
+
+                </div>
+                <p>Soft pancakes layered with cream, berries, and sweet syrup.</p>
+                <span class="pill">Dessert</span>
+            </div>
+            </article>
+
+            <article class="card menu-item reveal" data-category="drink">
+            <img src="./Images/card menu 6.jpg" alt="">
+            <div class="menu-content">
+                <div class="menu-top">
+                    <h3>Tropical Fruit Juice</h3>
+                    <span class="price">₹180</span>
+                </div>
+                <p>A Refreshing blend of tropical fruits served chilled and fresh.</p>
+                <span class="pill">Drink</span>
+            </div>
+            </article>
+        </div>
+        </div>
+     </section>
+
+     <!-- Gallery -->
+      <section class="section" id="gallery" style="background: #fff;">
+        <div class="container">
+            <div class="section-title reveal">
+                <span>Gallery</span>
+                <p>Explore our Restaurant through beautiful dishes and welcoming spaces</p>
+            </div>
+
+            <div class="gallery-grid">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.uNkYfxOATYWNrPoeE3grpAHaEK?r=0&pid=Api&h=220&P=0" alt="">
+                <img src="https://images.pexels.com/photos/11236819/pexels-photo-11236819.jpeg?cs=srgb&dl=pexels-captain-11236819.jpg&fm=jpg" alt="">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.5_IjYa6H3cXJ1z5rjCnZVwHaEK?r=0&pid=Api&h=220&P=0" alt="">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.b0KHOAAmDL3QatUT5dtawwHaE8?r=0&pid=Api&h=220&P=0" alt="">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.VhrlnKNhSxgyj-xuaE8jtwHaEU?r=0&pid=Api&h=220&P=0" alt="">
+                <img src="https://img.freepik.com/premium-photo/chicken-dish-restaurant-table_862994-89942.jpg" alt="">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.cI0SG5SKsrY5U-EAm6Wg_wHaHa?r=0&pid=Api&h=220&P=0" alt="">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.z8eFyww1vPWGjO1oEpxJrwHaE8?r=0&pid=Api&h=220&P=0" alt="">
+            </div>
+        </div>
+
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section" id="testimonials">
+        <div class="container">
+            <div class="section-title reveal">
+                <span>Testimonials</span>
+                <h2>What our curstomers say..</h2>
+                <p>We are proud to serve food and create experience that our guests trult enjoy.</p>
+            </div>
+
+            <div class="testimonial-grid">
+                <div class="card testimonial-card reveal">
+                <div class="stars">
+
+                </div>
+                <p>"Amazing food, beautiful atmosphere, and very friendly staff. The grilled salmon bowl was one of the best meals I've had in a long time."</p>
+            <div class="client">
+              <img src="./Images/client 3.jpg" alt="">
+              <div>
+                <h4>Sarah Blake</h4>
+                <small>Food Blogger</small>
+              </div>
+            </div>
+            </div>
+
+            <div class="card testimonial-card reveal">
+                <div class="stars">
+
+                </div>
+              <p>"The Restaurant feels warm and elegant. We visited with family and loved both the service and the quality of every dish we ordered."</p>
+              <div class="client">
+                <img src="./Images/client 2.jpg" alt="">
+                <div>
+                    <h4>Jason Reed</h4>
+                    <small>Regular Customer</small>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card testimonial-card reveal">
+                <div class="stars">
+
+                </div>
+              <p>"A perfect place for dinner dates and celebrations. The desserts were delicious and the ambience made the whole evening even better."</p>
+              <div class="client">
+                <img src="./Images/client 1.jpg" alt="">
+                <div>
+                    <h4>Emily Stone</h4>
+                    <small>Happy Guest</small>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Reservation -->
+       <section class="section" id="reservation" style="background: #fff;">
+         <div class="container">
+            <div class="section-title reveal">
+                <span>Reservation</span>
+                <h2>Reserve Your Table</h2>
+                <p>Reserve your seat for lunch, dinner, family gatherings, or special occasions.</p>
+            </div>
+
+            <div class="reservation-wrap">
+
+    <!-- Left side -->
+    <div class="reservation-info reveal">
+
+        <h3>Reserve for a memorable dining experience.</h3>
+
+        <p>
+            We are ready to welcome you with delicious dishes, warm service,
+            and a comfortable atmosphere.
+        </p>
+
+        <div class="info-list">
+
+            <div class="info-item">
+                <span>📍</span>
+                <div>
+                    <h4>Location</h4>
+                    <p>12 MG Road, New Delhi, India</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <span>🕒</span>
+                <div>
+                    <h4>Opening Hours</h4>
+                    <p>Daily: 10:00 AM – 11:00 PM</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <span>📞</span>
+                <div>
+                    <h4>Contact</h4>
+                    <p>+91 98765 43210</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Right side -->
+    <div class="card reservation-form reveal">
+
+        <form id="bookingForm">
+
+            <div class="form-grid">
+
+                <div class="input-group">
+                    <input class="input" type="text" placeholder="Your Name" required>
+                </div>
+
+                <div class="input-group">
+                    <input class="input" type="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="input-group">
+                    <input class="input" type="tel" placeholder="Phone Number" required>
+                </div>
+
+                <div class="input-group">
+                    <select required>
+                        <option value="">Guests</option>
+                        <option>1 Person</option>
+                        <option>2 People</option>
+                        <option>3 People</option>
+                        <option>4 People</option>
+                        <option>5+ People</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <input class="input" type="date" required>
+                </div>
+
+                <div class="input-group">
+                    <input class="input" type="time" required>
+                </div>
+
+                <div class="input-group full">
+                    <textarea placeholder="Special request (optional)"></textarea>
+                </div>
+
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                Reserve Now
+            </button>
+
+            <p id="formMessage">
+                Your table reservation request has been sent successfully.
+            </p>
+
+        </form>
+
+    </div>
+
+</div>
+       </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3>Flavour House</h3>
+                    <p>A modern Restaurant website for showcasing menu items, ambience, customer reb-views, and table reservations.</p>
+                    <div class="socials">
+                        <a href="#">f</a>
+                        <a href="#">ig</a>
+                        <a href="#">in</a>
+                        <a href="#">yt</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#reservation">Reservation</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Popular Dishes</h4>
+                    <ul class="footer-links">
+                      <li><a href="#">Grilled Salmon Bowl</a></li>  
+                      <li><a href="#">Italian Pizza</a></li>  
+                      <li><a href="#">Garden Salad</a></li>  
+                      <li><a href="#">Berry Pancakes</a></li>  
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">hello@flavourhouse.com</a></li>
+                        <li><a href="#">+91 98765 43210</a></li>
+                        <li><a href="#">New Delhi, India</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                2026 Flavour House. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
