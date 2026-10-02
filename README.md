@@ -23,7 +23,7 @@ This project was created to practice frontend web development and demonstrate a 
 
 ## Live Demo
 
-[View Live Website](benevolent-tanuki-2b09cf.netlify.app)
+[View Live Website]benevolent-tanuki-2b09cf.netlify.app
 
 ## Note
 
