@@ -13,8 +13,8 @@ A responsive restaurant website built with HTML, CSS, and JavaScript as a person
 
 ## Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ## Project Purpose
