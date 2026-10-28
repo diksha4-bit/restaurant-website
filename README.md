@@ -27,4 +27,5 @@ This project was created to practice frontend web development and demonstrate a 
 
 ## Note
 
+Completed as a personal practice and freelance demo project.
 
